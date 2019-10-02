@@ -1,0 +1,23 @@
+.tex{
+    width: 200px;
+    height: 70px;
+    color: #000;
+    float: left;
+    position: relative;
+    background: red;
+}
+
+.opaci{
+    background-color: rgb(255,0,0);
+    opacity: 0.6;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    background: red;
+}
+
+#form{
+    background: #f8f8f8;
+}
+
