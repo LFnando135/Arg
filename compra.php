@@ -12,15 +12,15 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/st.css">
     </head>
     <style>
-        body{
-            background: #d6d8d9;
+          body{
+            background: white;
         }
     </style>
     <body>
-        <header>
+      <header>
             <div class="row" style="padding: 10px">
                 <div class="col-sm-12 col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="border-radius: 7px; background: linear-gradient( 0deg, midnightblue , menutext, 10px, darkslateblue);">
+                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="border-radius: 7px; background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9));">
                         <a class="navbar-brand" href="index.php" style="color: white"><img src="imagenes/logito.png" width="170px" height="90px"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -61,14 +61,14 @@ and open the template in the editor.
                         <?php
                         if (isset($_POST['txtnom'])) {
                             //Mandar el correo
-                            $asunto = "Compra SamOnline";
-                            $mensaje = "Bienvenido a SamOnline! Se ha registrado una compra en nuestra página con la siguiente información
+                            $asunto = "Compra Tienda Gamer ";
+                            $mensaje = "Se a realizado la compra exitosamente
                             \nCliente: " . $_POST['txtnom'] .
                                     "\n\nTelefono: " . $_POST['txttel'] .
                                     "\n\nCorreo: " . $_POST['txtcorreo'];
 
                             $destino = $_POST['txtcorreo'];
-                            $remitente = "yerani.samperio@gmail.com";
+                            $remitente = "camarenaluis6@gmail.com";
                             mail($destino, $asunto, $mensaje, $remitente);
                             ?>
                             <br><div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -172,14 +172,14 @@ and open the template in the editor.
             </div>
         </section><br><br>
 
-        <footer style="padding: 25px">
-            <div class="row" style="background: linear-gradient( 0deg, midnightblue , menutext, 10px, darkslateblue); border-radius: 7px;">
+        <footer style="padding: 5px">
+            <div class="row" style="background: linear-gradient( 0deg, white , menutext, 20px, rgb(0, 165, 255,.9));">
                 <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
                     <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Redes sociales</label><br>
-                    <img src="imagenes/facebook.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Yerani Samperio</a><br><br>
-                    <img src="imagenes/whatsapp.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5518682868</a><br><br>
-                    <img src="imagenes/Instagram.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio13</a><br><br>
-                    <img src="imagenes/twitter.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio13</a><br><br>
+                    <img src="imagenes/facebook.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">kike Camarena</a><br><br>
+                    <img src="imagenes/whatsapp.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5544772233</a><br><br>
+                    <img src="imagenes/Instagram.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Luis.kike12</a><br><br>
+                    <img src="imagenes/twitter.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Luis.enrique123</a><br><br>
 
                 </div>
                 <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
@@ -187,7 +187,7 @@ and open the template in the editor.
                     <img src="imagenes/telefono.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">57892042</a><br><br>
                     <img src="imagenes/celular.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5518682868</a><br><br>
                     <img src="imagenes/celular.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5519789056</a><br><br>
-                    <img src="imagenes/correo.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio@gmail.com</a><br><br>
+                    <img src="imagenes/correo.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">camarenaluis6@gmail.com</a><br><br>
                 </div>
                 <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
                     <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Comentarios</label><br>
@@ -199,6 +199,7 @@ and open the template in the editor.
                 </div>
             </div>
         </footer>
+
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

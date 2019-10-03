@@ -20,7 +20,7 @@ and open the template in the editor.
         <header>
             <div class="row" style="padding: 10px">
                 <div class="col-sm-12 col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="border-radius: 7px; background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9));">
+                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style=" background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9));">
                         <a class="navbar-brand" href="index.php" style="color: white"><img src="imagenes/logito.png" width="170px" height="90px"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -53,22 +53,22 @@ and open the template in the editor.
             </div>
         </header>
 
-        <div class="container">
-            <div class="row" style="padding-top: 110px">
-                <div class="col-sm-7 col-md-7" style="padding: 10px">
+        <div class="container" style="box-shadow: -2px 44px 40px 3px rgba(8,189,255,0.78);">
+            <div class="row" style="padding-top: 110px" style="">
+                <div class="col-sm-7 col-md-12" style="padding: 10px">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto5.jpg" alt="First slide" height="500px" style="border-radius: 40px"></a>
+                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto5.jpg" alt="First slide" height="500px" style="border-radius: 10px; "></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto2.jpg" alt="Second slide" height="500px" style="border-radius: 40px"></a>
+                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto2.jpg" alt="Second slide" height="500px" style="border-radius: 10px;"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto3.jpg" alt="Third slide" height="500px" style="border-radius: 40px"></a>
+                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto3.jpg" alt="Third slide" height="500px" style="border-radius: 10px;"></a>
                             </div>
                             <div class="carousel-item">
-                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto4.png" alt="Third slide" height="500px" style="border-radius: 40px"></a>
+                                <a href="compra.php"><img class="d-block w-100" src="imagenes/producto4.png" alt="Third slide" height="500px" style="border-radius: 10px;"></a>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -81,14 +81,10 @@ and open the template in the editor.
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-5 col-md-5" style="padding-top: 50px">
-                    <img src="imagenes/compraNow.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Elige lo mejor en consolas</label><br><br><br>
-                    <img src="imagenes/domicilio.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Recibe en 24 hrs. tu producto</label><br><br><br>
-                    <img src="imagenes/regalo.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Daselo a esa persona especial!</label><br><br><br>
-                </div>
 
             </div>
         </div>
+        <br><br><br>
         <hr noshade="noshade" size="2" width="95%" style="height: 1px; background: lightslategray"/><br>
 
         <section>
@@ -165,33 +161,34 @@ and open the template in the editor.
                 </div>
             </section><br><br>
 
-            <footer style="padding: 25px">
-                <div class="row" style="background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9)); border-radius: 7px;">
-                    <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Redes sociales</label><br>
-                        <img src="imagenes/facebook.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Yerani Samperio</a><br><br>
-                        <img src="imagenes/whatsapp.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5518682868</a><br><br>
-                        <img src="imagenes/Instagram.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio13</a><br><br>
-                        <img src="imagenes/twitter.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio13</a><br><br>
+       <footer style="padding: 5px">
+            <div class="row" style="background: linear-gradient( 0deg, white , menutext, 20px, rgb(0, 165, 255,.9));">
+                <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
+                    <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Redes sociales</label><br>
+                    <img src="imagenes/facebook.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">kike Camarena</a><br><br>
+                    <img src="imagenes/whatsapp.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5544772233</a><br><br>
+                    <img src="imagenes/Instagram.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Luis.kike12</a><br><br>
+                    <img src="imagenes/twitter.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Luis.enrique123</a><br><br>
 
-                    </div>
-                    <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Teléfonos</label><br>
-                        <img src="imagenes/telefono.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">57892042</a><br><br>
-                        <img src="imagenes/celular.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5518682868</a><br><br>
-                        <img src="imagenes/celular.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5519789056</a><br><br>
-                        <img src="imagenes/correo.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">yerani.samperio@gmail.com</a><br><br>
-                    </div>
-                    <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Comentarios</label><br>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Nombre" aria-label="Search" style="width: 350px"><br>
-                            <textarea class="form-control mr-sm-2" type="week" placeholder="Comentario" aria-label="Search" style="width: 350px; height: 100px"></textarea><br><br><br><br><br><br>
-                            <button class="btn btn-primary my-2 my-sm-0" type="submit">Publicar</button>
-                        </form>
-                    </div>
                 </div>
-            </footer>
+                <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
+                    <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Teléfonos</label><br>
+                    <img src="imagenes/telefono.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">57892042</a><br><br>
+                    <img src="imagenes/celular.png" width="45px" height="45px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5518682868</a><br><br>
+                    <img src="imagenes/celular.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">044 5519789056</a><br><br>
+                    <img src="imagenes/correo.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">camarenaluis6@gmail.com</a><br><br>
+                </div>
+                <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
+                    <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Comentarios</label><br>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Nombre" aria-label="Search" style="width: 350px"><br>
+                        <textarea class="form-control mr-sm-2" type="week" placeholder="Comentario" aria-label="Search" style="width: 350px"></textarea><br><br><br><br><br>
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Publicar</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
 
 
             <?php
