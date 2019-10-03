@@ -89,54 +89,8 @@ and open the template in the editor.
                             <input class="form-control mr-sm-2" type="search" placeholder="Correo" aria-label="Search" style="width: 680px" name="txtcorreo" required><br>
                             <textarea class="form-control mr-sm-2" type="week" placeholder="Asunto" aria-label="Search" style="width: 680px; height: 100px" name="txtasunto" required></textarea><br><br><br>
                             <button class="btn btn-primary my-2 my-sm-0 t" type="submit">Enviar</button>
-                        </form>
+                        </form >
                         <?php } ?>
-                    </div>
-
-                    <div class="col-sm-1 col-md-1">
-                    </div>
-
-                    <div class="col-sm-4 col-md-4">
-                        <div class="mb-3">
-                            <div class="card bg-light mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Luis Camarena</div>
-                                <div class="card-body" style="height: 115px">
-                                    <p class="card-text">Los productos llegan a tiempo, recomendado!</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">23 de Mayo 2018</small>
-                                </div>
-                            </div>
-                            <div class="card bg-light mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Emily Lopez</div>
-                                <div class="card-body" style="height: 115px">
-                                    <p class="card-text">Realmente es una asombrante tienda en linea, la amo!</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">15 de Enero 2019</small>
-                                </div>
-                            </div>
-
-                            <div class="card bg-light mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Yerani Samperio</div>
-                                <div class="card-body" style="height: 115px">
-                                    <p class="card-text">En todo momento fueron amables conmigo! Lo recomiendo</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">13 de Mayo 2019</small>
-                                </div>
-                            </div>
-
-                            <div class="card bg-light mb-3" style="max-width: 18rem;">
-                                <div class="card-header">Silvia Samperio</div>
-                                <div class="card-body" style="height: 115px">
-                                    <p class="card-text">Un lugar que sabe lo que necesito! Muchas gracias</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">02 de Junio 2019</small>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
