@@ -89,7 +89,7 @@ and open the template in the editor.
                             <input class="form-control mr-sm-2" type="search" placeholder="Correo" aria-label="Search" style="width: 680px" name="txtcorreo" required><br>
                             <textarea class="form-control mr-sm-2" type="week" placeholder="Asunto" aria-label="Search" style="width: 680px; height: 100px" name="txtasunto" required></textarea><br><br><br>
                             <button class="btn btn-primary my-2 my-sm-0 t" type="submit">Enviar</button>
-                        </form>
+                        </form >
                         <?php } ?>
                     </div>
                 </div>
