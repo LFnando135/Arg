@@ -35,7 +35,7 @@ and open the template in the editor.
                                     <a class="nav-link" href="#" style="color: white">Productos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="acerca.php" style="color: white">Acerca de nosotros</a>
+                                    <a class="nav-link" href="acerca.php" style="color: white">Acerca de nosotross</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contacto.php" style="color: white">Contacto</a>
@@ -65,7 +65,7 @@ and open the template in the editor.
                         <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Misión</label><br><br>
                         <p  class="text-justify">Ser la mejor opción en tiendas de regalos con creaciones originales con el toque de distinción que nos caracteriza y al mejor precio; brindando atención presonalizada y de excelencia a nuestros clientes.</p><br>
                     </div>
-                    
+
                     <div class="col-sm-5 col-md-5 text-center">
                         <img src="imagenes/mision.png" width="220px" height="200px">
                     </div>
@@ -76,16 +76,16 @@ and open the template in the editor.
                     <div class="col-sm-5 col-md-5 text-center">
                         <img src="imagenes/vision.png" width="330px" height="220px">
                     </div>
-                    
+
                         <div class="col-sm-7 col-md-7">
                         <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Objetivo</label><br><br>
                         <p  class="text-justify">Brindarle al cliente una opción diferente única y practica a la hora de escoger o realizar una sorpresa para alguien especial</p><br>
                     </div>
-                    
+
                     <div class="col-sm-5 col-md-5 text-center">
                         <img src="imagenes/objetivo.png" width="250px" height="210px">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -127,7 +127,7 @@ and open the template in the editor.
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
-    <!--                    <i class="fab fa-whatsapp" class="color-uno"></i> 
+    <!--                    <i class="fab fa-whatsapp" class="color-uno"></i>
                     <i class="fab fa-facebook-f" class="color-uno"></i> -->
     <!--        <script src="js/all.js" type="text/javascript"></script>-->
 </html>
