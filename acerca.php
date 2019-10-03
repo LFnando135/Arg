@@ -54,39 +54,37 @@ and open the template in the editor.
         </header>
 
         <section>
+
             <div class="container">
-                <div class="row" style="padding-top: 120px">
-                    <div class="col-sm-12 col-md-12">
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">¿Qué es el comercio eléctronico?</label><br><br>
-                        <p  class="text-justify">En términos generales, el comercio electrónico es la compra-venta de productos o servicios a través de Internet y redes informáticas. Además, conlleva tareas como el marketing, contenidos e información en la red. Todo ello supone una revolución en la manera en la que las empresas se comunican y desarrollan su actividad comercial.<br>
-                            La importancia de este método es la accesibilidad que los clientes de una empresa pueden tener a los productos o servicios que ofrece la empresa, desde cualquier lugar y en cualquier momento. </p><br>
-                    </div>
-                        <div class="col-sm-7 col-md-7">
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Misión</label><br><br>
-                        <p  class="text-justify">Ser la mejor opción en tiendas de regalos con creaciones originales con el toque de distinción que nos caracteriza y al mejor precio; brindando atención presonalizada y de excelencia a nuestros clientes.</p><br>
-                    </div>
+                <div class="row" style="padding-top: 130px">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Misión</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Vision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Objetivo</a>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <p  class="text-justify">Ser la mejor opción en tiendas de regalos con creaciones originales con el toque de distinción que nos caracteriza y al mejor precio; brindando atención presonalizada y de excelencia a nuestros clientes.</p><br>
+                      <center><img src="imagenes/conocenos/mision.png" width="330px" height="220px"></center>
+                  </div>
 
-                    <div class="col-sm-5 col-md-5 text-center">
-                        <img src="imagenes/mision.png" width="220px" height="200px">
-                    </div>
-                    <div class="col-sm-7 col-md-7">
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Misión</label><br><br>
-                        <p  class="text-justify">Ser una empresa lider en ofrecer, a Empresas y Compañias, obsequios y regalos para esas fechas especiales, ofreciendo el mejor servicio y cubriendo las necesidades y requerimientos del cliente, siendo reconocida en el ámbito Nacional e Internacional, por la calidad de sus servicios y productos.</p><br>
-                    </div>
-                    <div class="col-sm-5 col-md-5 text-center">
-                        <img src="imagenes/vision.png" width="330px" height="220px">
-                    </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <p  class="text-justify">Ser una empresa lider en ofrecer, a Empresas y Compañias, obsequios y regalos para esas fechas especiales, ofreciendo el mejor servicio y cubriendo las necesidades y requerimientos del cliente, siendo reconocida en el ámbito Nacional e Internacional, por la calidad de sus servicios y productos.</p><br>
+                      <center><img src="imagenes/conocenos/vision.png" width="330px" height="220px"></center>
+                  </div>
 
-                        <div class="col-sm-7 col-md-7">
-                        <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Objetivo</label><br><br>
-                        <p  class="text-justify">Brindarle al cliente una opción diferente única y practica a la hora de escoger o realizar una sorpresa para alguien especial</p><br>
-                    </div>
-
-                    <div class="col-sm-5 col-md-5 text-center">
-                        <img src="imagenes/objetivo.png" width="250px" height="210px">
-                    </div>
-
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <p  class="text-justify">Brindarle al cliente una opción diferente única y practica a la hora de escoger o realizar una sorpresa para alguien especial</p><br>
+                      <center><img src="imagenes/conocenos/objetivo.png" width="330px" height="220px"></center>
+                  </div>
                 </div>
+            </div>
             </div>
         </section>
 
