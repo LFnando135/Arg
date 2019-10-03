@@ -84,7 +84,7 @@ and open the template in the editor.
 
             </div>
         </div>
-        <br><br><br>
+        <br><br><br>|- 
         <hr noshade="noshade" size="2" width="95%" style="height: 1px; background: lightslategray"/><br>
 
         <section>
@@ -109,8 +109,8 @@ and open the template in the editor.
                                 <div class="card">
                                     <img class="card-img-top" src="images/producto<?php echo $num; ?>.jpg" alt="Card image cap" style="height: 170px">
                                     <div class="card-body" style="height: 200px; background: rgb(109, 182, 226); color: white">
-                                        <h5 class="card-title">Jeans</h5>
-                                        <p class="card-text">Jeans que moldean perfectamente la siluta!</p>
+                                        <h5 class="card-title">Consolas</h5>
+                                        <p class="card-text">Lo mejor del mes!</p>
                                     </div>
                                     <div class="card-footer text-right" style="background: white">
                                         <small class="text-muted"><a href="compra.php" class="btn btn-primary">Comprar</a></small>
@@ -146,9 +146,9 @@ and open the template in the editor.
                                 ?>
                                 <div class="card">
                                     <img class="card-img-top" src="images/producto<?php echo $num; ?>.jpg" alt="Card image cap" style="height: 170px">
-                                    <div class="card-body" style="height: 200px; background: rgb(142,108,146); color: white">
-                                        <h5 class="card-title">Sudadera pareja</h5>
-                                        <p class="card-text">Hazle saber a esa personita que la llevas siempre!</p>
+                                    <div class="card-body" style="height: 200px; background: rgb(109, 182, 226); color: white">
+                                        <h5 class="card-title">Consola</h5>
+                                        <p class="card-text">Lo mejor del mes!</p>
                                     </div>
                                     <div class="card-footer text-right" style="background: rgb(243,243,243)">
                                         <small class="text-muted"><a href="compra.php" class="btn btn-primary">Comprar</a></small>
