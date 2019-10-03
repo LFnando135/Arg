@@ -13,14 +13,14 @@ and open the template in the editor.
     </head>
     <style>
         body{
-            background: #d6d8d9;
+            background: white;
         }
     </style>
     <body>
         <header>
             <div class="row" style="padding: 10px">
                 <div class="col-sm-12 col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="border-radius: 7px; background: linear-gradient( 0deg, midnightblue , menutext, 10px, darkslateblue);">
+                    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="border-radius: 7px; background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9));">
                         <a class="navbar-brand" href="index.php" style="color: white"><img src="imagenes/logito.png" width="170px" height="90px"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -82,9 +82,9 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="col-sm-5 col-md-5" style="padding-top: 50px">
-                    <img src="imagenes/compraNow.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: white; font-size: 20px; padding-left: 10px">Elige el regalo perfecto</label><br><br><br>
-                    <img src="imagenes/domicilio.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: white; font-size: 20px; padding-left: 10px">Recibe en 24 hrs. tu producto</label><br><br><br>
-                    <img src="imagenes/regalo.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: white; font-size: 20px; padding-left: 10px">Daselo a esa persona especial!</label><br><br><br>
+                    <img src="imagenes/compraNow.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Elige lo mejor en consolas</label><br><br><br>
+                    <img src="imagenes/domicilio.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Recibe en 24 hrs. tu producto</label><br><br><br>
+                    <img src="imagenes/regalo.png" width="100px" height="100px"><label class="font-weight-bold text-sm-left" style="color: black; font-size: 20px; padding-left: 10px">Daselo a esa persona especial!</label><br><br><br>
                 </div>
 
             </div>
@@ -95,7 +95,7 @@ and open the template in the editor.
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
-                        <label class="font-weight-bold text-md-left" style="color: rgb(111,35,107); font-size: 40px; font-family: kristen itc">Lo más nuevo!</label>
+                        <label class="font-weight-bold text-md-left" style="color: black; font-size: 40px; font-family: kristen itc">Lo más nuevo!</label>
                     </div>
                 </div>
             </div>
@@ -112,11 +112,11 @@ and open the template in the editor.
                                 ?>
                                 <div class="card">
                                     <img class="card-img-top" src="images/producto<?php echo $num; ?>.jpg" alt="Card image cap" style="height: 170px">
-                                    <div class="card-body" style="height: 200px; background: rgb(142,108,146); color: white">
+                                    <div class="card-body" style="height: 200px; background: rgb(109, 182, 226); color: white">
                                         <h5 class="card-title">Jeans</h5>
                                         <p class="card-text">Jeans que moldean perfectamente la siluta!</p>
                                     </div>
-                                    <div class="card-footer text-right" style="background: rgb(243,243,243)">
+                                    <div class="card-footer text-right" style="background: white">
                                         <small class="text-muted"><a href="compra.php" class="btn btn-primary">Comprar</a></small>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ and open the template in the editor.
             </section><br><br>
 
             <footer style="padding: 25px">
-                <div class="row" style="background: linear-gradient( 0deg, midnightblue , menutext, 10px, darkslateblue); border-radius: 7px;">
+                <div class="row" style="background: linear-gradient( 0deg, white , menutext, 10px, rgb(0, 165, 255,.9)); border-radius: 7px;">
                     <div class="col-sm-4 col-md-4" style="width:'100%'; height:'400px';"><br>
                         <label class="font-weight-bold text-sm-left" style="color: white; font-size: 27px; padding-left: 10px">Redes sociales</label><br>
                         <img src="imagenes/facebook.png" width="40px" height="40px"><a class="font-small text-sm-left" style="color: white; font-size: 17px; padding-left: 35px">Yerani Samperio</a><br><br>
